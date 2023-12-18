@@ -1,0 +1,22 @@
+.Header{
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+.navList{
+    display: flex;
+    flex-direction: row;
+    grid-gap: 1.5rem;
+    list-style: none;
+  }
+  .navList a{
+    text-decoration: none;
+    color: white;
+  
+  }

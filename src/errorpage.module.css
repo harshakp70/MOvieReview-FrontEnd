@@ -1,0 +1,9 @@
+.home{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    font-size: 45px;
+}

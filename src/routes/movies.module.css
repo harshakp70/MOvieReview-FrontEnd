@@ -1,0 +1,63 @@
+.sectionMovieDetail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    grid-gap: 2rem;
+}
+.MoviePoster{
+    width: 100%;
+    max-width: 320px;
+
+}
+.edit{
+text-decoration: none;
+padding:0.25rem 2rem ;  
+display: inline-block;
+background-color: black; 
+color: white;
+border-radius: 5px;
+margin-top: 0.5rem;
+}
+.section1{
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.section2{
+    padding: 2rem;
+
+}
+.reviews{
+    padding:1rem;
+}
+.listItem{
+    list-style: none;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+
+}
+
+.listItem h2{
+    padding: 0.5rem;
+}
+.reviewList{
+    margin-left: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+        
+}
+.section2Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+.deleteButton{
+    background-color: rgb(233, 244, 240);
+}
+

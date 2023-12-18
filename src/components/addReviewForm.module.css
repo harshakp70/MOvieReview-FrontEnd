@@ -1,0 +1,41 @@
+.AddReviewOverlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0.135);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .addReviewForm{
+        display: flex;
+        flex-direction: column;
+        max-width: 540px;
+        width: 100%;
+        background-color: white;
+        padding: 1rem;
+}
+.addReviewForm label{
+    margin-bottom: 0.5rem;
+    font-size: large;
+    font-weight: bold;
+}
+.addReviewForm input ,.addForm textarea{
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.addReviewForm textarea{
+    min-height: 200px;
+}
+.reviewFormButton{
+    align-self: flex-end;
+    width: 4px;
+    height: 4px;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+}
+    
